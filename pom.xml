@@ -25,8 +25,6 @@
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
                     	<suiteXmlFile>${suiteXmlFiles}</suiteXmlFile>
-                        <!-- <suiteXmlFile>src/test/resources/SmokeTests.xml</suiteXmlFile> -->
-												<!-- <suiteXmlFile>src/test/resources/apic_002/AppSettingsCucumberTests.xml</suiteXmlFile> -->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

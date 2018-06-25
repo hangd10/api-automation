@@ -6,6 +6,7 @@ Scenario: Invoke API call to get 200 status
 	Given I make a GET CoverageVerifier to /posts/1
 	Then I get a valid CoverageVerifier response	
 
+@only
 Scenario: Invoke API call to get 200 status
 	Given I make a GET CoverageVerifier to /posts
 	Then I get a valid CoverageVerifier response

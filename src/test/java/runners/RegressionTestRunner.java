@@ -8,6 +8,7 @@ import cucumber.api.CucumberOptions;
 	plugin={"com.cucumber.listener.ExtentCucumberFormatter:CucumberOutput/Extentreport.html"}
 )
 
-public class RegressionTestRunnerALL extends MainTestRunner {
+// Runs all .feature files with no filters
+public class RegressionTestRunner extends MainTestRunner {
 
 }
